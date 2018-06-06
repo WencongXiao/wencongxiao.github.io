@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articles on Wencong Xiao</title>
+    <link>https://wencongxiao.github.io/articles/</link>
+    <description>Recent content in Articles on Wencong Xiao</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Apr 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://wencongxiao.github.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>惊喜与挑战并行的NSDI 2017</title>
+      <link>https://wencongxiao.github.io/articles/nsdi17/</link>
+      <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://wencongxiao.github.io/articles/nsdi17/</guid>
+      <description>这篇文章主要记录了参加NSDI2017的参会过程和感想，以及对于网络系统研究内容和方向的思考。
+Outline
+ 会议简介 搭讪，演讲，被搭讪 焦点透视  获奖论文 微软Azure的重磅工作 持续火爆的数据中心研究 机器学习和网络系统   </description>
+    </item>
+    
+    <item>
+      <title>方兴未艾的云计算：SoCC 2015大会</title>
+      <link>https://wencongxiao.github.io/articles/socc15/</link>
+      <pubDate>Tue, 08 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://wencongxiao.github.io/articles/socc15/</guid>
+      <description>这篇文章主要记录了参加SoCC2015的参会过程和感想，以及对于网络系统研究内容和方向的思考。
+Outline
+ 脑力激荡的特邀报告 潜力无限的最佳论文 可圈可点的微软研究院成果  </description>
+    </item>
+    
+  </channel>
+</rss>

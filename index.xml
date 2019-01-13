@@ -21,6 +21,17 @@
     </item>
     
     <item>
+      <title>Machine Learning System Research after TensorFlow</title>
+      <link>https://wencongxiao.github.io/articles/mlsyspaperlist/</link>
+      <pubDate>Sun, 13 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://wencongxiao.github.io/articles/mlsyspaperlist/</guid>
+      <description>A paper list about machine learning system and infrastructure published after TensorFlow. (will be updated)
+The papers are mainly from system conferences, including OSDI, SOSP, NSDI, EUROSYS, ATC, SoCC. As machine learning system/infrastructure is a cross-domain research area, some research papers might publish in ASPLOS, ISCA, NeuralPS&amp;hellip; This paper list focuses on system design for machine learning. The hardware design and algorithm design papers are excluded.
+Please feel free to contact me for any suggestion/discussion.</description>
+    </item>
+    
+    <item>
       <title>OSDI2018：探寻计算机系统之美</title>
       <link>https://wencongxiao.github.io/articles/osdi18/</link>
       <pubDate>Thu, 22 Nov 2018 00:00:00 +0000</pubDate>

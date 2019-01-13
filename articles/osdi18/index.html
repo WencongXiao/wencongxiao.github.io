@@ -107,13 +107,13 @@
 
 <p>Symposium on Operating Systems Design and Implementation（操作系统设计与实现，后简称 OSDI）是计算机系统设计的顶级会议，由 USENIX 主办，两年一届。OSDI 作为系统研究领域的最高级别学术会议，镌刻下了计算机科学家们智慧的闪光和对计算机系统的前瞻性思考。诞生在 OSDI 上的大量工作，比如 MapReduce、BigTable 等，深刻的影响了整个互联网的发展。</p>
 
-<p><img src="/img/WeChat Image_20190113200258.jpg =250x" alt="" /></p>
+<p><img src="/img/WeChat Image_20190113200258.jpg" width="500" hegiht="313"/></p>
 
 <h2 id="微软力量闪耀-osdi">微软力量闪耀 OSDI</h2>
 
 <p>本届 OSDI 会议共吸引了 1300+ 作者的 257 篇投稿，录用论文 47 篇，录用率 18%。微软作为大会的主要赞助商之一，创纪录地有 12 篇论文被录用，占大会总文章数的 <sup>1</sup>&frasl;<sub>4</sub> 以上，发表量稳居第一。本届大会共评选出 3 篇 Best Paper，其中两篇来自微软。</p>
 
-<p><img src="/img/WeChat Image_20190113200330.jpg =250x" alt="" /></p>
+<p><img src="/img/WeChat Image_20190113200330.jpg" width="500" hegiht="313"/></p>
 
 <p>此次 OSDI 还为微软亚洲研究院院友们提供了一次交流机会，大家在南加州留下了这张珍贵的合影，庆祝 MSRA 成立 20 周年。MSRA 副院长周礼栋博士（前排右三）、张霖涛博士、杨凡博士、张权路博士等多名系统组研究员参加了本次大会。大家与多位院友相聚一堂，包括在这次大会上一口气发表 4 篇文章的 MIT 教授 Frans Kaashoek，不久前刚来 MSRA 进行讲座的 ACM 和 IEEE Fellow Lorenzo Alvisi 教授，还有美国顶级名校的年轻老师们 Xi Wang，Yiying Zhang，Peng Huang等。</p>
 
@@ -128,7 +128,7 @@
 <p>论文链接
 <a href="https://www.usenix.org/conference/osdi18/presentation/huang">https://www.usenix.org/conference/osdi18/presentation/huang</a></p>
 
-<p><img src="/img/WeChat Image_20190113200335.jpg =250x" alt="" /></p>
+<p><img src="/img/WeChat Image_20190113200335.jpg" width="500" hegiht="313"/></p>
 
 <p>与 Panorama 专注于定位错误不同，微软的 Best Paper展示了一个已经部署在 Windows 系统中的 Debug工具 REPT，可以在错误发生的时候，帮助开发人员从 Core Dump 恢复执行时的寄存器和内存状态，进而知道整个执行的过程，理解错误产生的原因。REPT 的前后向扫描推测技术，可以基于汇编代码推断出执行时的状态。而对于多线程场景，REPT 利用了硬件提供的时间戳来确定执行的序列，从而帮助执行时状态的推测。在 OSDI 的论文展示现场，REPT 还在 Visual Studio 上进行了现场 Demo，相信这一实用技术很快就能被更多的人用上。</p>
 
@@ -145,7 +145,7 @@
 <p>论文链接
 <a href="https://www.usenix.org/conference/osdi18/presentation/volos">https://www.usenix.org/conference/osdi18/presentation/volos</a></p>
 
-<p><img src="/img/WeChat Image_20190113200340.jpg =250x" alt="" /></p>
+<p><img src="/img/WeChat Image_20190113200340.jpg" width="500" hegiht="313"/></p>
 
 <h3 id="计算系统">计算系统</h3>
 
@@ -170,14 +170,14 @@
 <p>论文链接
 <a href="https://www.usenix.org/conference/osdi18/presentation/xiao">https://www.usenix.org/conference/osdi18/presentation/xiao</a></p>
 
-<p><img src="/img/WeChat Image_20190113200348.jpg =250x" alt="" /></p>
+<p><img src="/img/WeChat Image_20190113200348.jpg" width="500" hegiht="313"/></p>
 
 <p>与 Gandiva 一样，RobinHood 也从一个全局性的思路去考虑一个缓存系统设计的问题。以往，研究员们都认为缓存并不能优化系统的 Tail Latency，而作者观察到这样一件事情，一个复杂系统的缓存（Cache）背后通常是一系列的独立的服务，一个请求的延迟是这些服务延迟的最大值，而这些服务的 Tail Latency 在不同时期是不一样的。基于这个发现，他提出 RobinHood 这个工作，Idea 也很直观而讨巧，即动态的对于 Cache 进行划分，对于 Tail Latency 大的那些服务就给它分配更大的 Cache，这样就可以优化整体系统的 Tail Latency。</p>
 
 <p>论文链接
 <a href="https://www.usenix.org/conference/osdi18/presentation/berger">https://www.usenix.org/conference/osdi18/presentation/berger</a></p>
 
-<p><img src="/img/WeChat Image_20190113200352.jpg =250x" alt="" /></p>
+<p><img src="/img/WeChat Image_20190113200352.jpg" width="500" hegiht="313"/></p>
 
 <p>Flare 是传统大数据系统相关的工作，针对 Spark 在中等规模数据处理场景下做优化，由斯坦福和普渡联合完成。Spark 作为大数据基础设施，在工业应用中可谓必不可少，而针对 Spark 的性能分析的文章从未停止过。</p>
 
